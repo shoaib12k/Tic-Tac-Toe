@@ -69,3 +69,12 @@ table{
     border-collapse: collapse;
     
 }
+
+@media screen and (max-width:500px){
+    td{
+        height: 80px;
+        width: 70px;
+        font-size: 70px;
+    }
+    
+}
