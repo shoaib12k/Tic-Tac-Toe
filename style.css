@@ -1,0 +1,71 @@
+:root{
+    --clr-neon: hsl(317 100% 54%);
+}
+
+body{
+
+    background-color: black;
+    background-repeat: repeat;
+    background-size: cover;    
+
+}
+p{
+    text-shadow: 0 0 0.25em black;
+
+}
+
+.neon, td{
+    min-width:100px;
+    color: var(--clr-neon);
+    background: rgb(0, 0, 61);
+    font-size: 2em;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: var(--clr-neon) 4px solid;
+    padding: 0.25 1em;
+    border-radius: 0.25em;
+
+    text-shadow: 0 0 0.25em;
+    box-shadow: 0 0 0.5em 0 var(--clr-neon);
+    transition: background-color 100ms linear;
+
+}
+.title{
+    text-shadow: 0 0 0.25em black;
+}
+
+.neon:hover, td:hover{
+    background: var(--clr-neon);
+    color:rgb(0, 0, 61);
+    text-shadow: none;
+    box-shadow: 0 0 2em 0 var(--clr-neon);
+}
+
+
+.card{
+    font-family: 'Press Start 2P', cursive;
+    background-color:transparent;
+    text-align: center;
+    align-items: center;
+    margin:50px;
+    color: var(--clr-neon);
+    text-shadow: 0 0 0.25em var(--clr-neon);
+}
+
+td{
+    
+    height:125px;
+    width:125px;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+table{
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    
+}
